@@ -13,7 +13,7 @@ post '/' do
   cipher_string = ceaser_cipher(string,shift)
   erb :ciphered, :locals => {:cipher_string => cipher_string}
 end
-
+ 
 def ceaser_cipher(string, shift=3)
   #take a string and copy to an array;
   chars=string.upcase.split("")

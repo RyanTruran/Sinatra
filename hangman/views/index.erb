@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script>var word = prompt("what word would you like to guess?");</script>
+  </head>
+  <body>
+    <p>
+      The secret number is <%= random_number %>
+    </p>
+    <form>
+      <input type='text' name='guess' />
+      <input type='submit' value='Guess!' />
+    </form>
+      <p>
+        <%=guess_string%>
+      </p>
+  </body>
+</html>
